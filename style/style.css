@@ -1,0 +1,31 @@
+main {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+  .carousel-caption {
+    height: 80%;
+  }
+  .carousel-caption h1 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .carousel-caption p {
+    font-size: 9px;
+    margin: 5px;
+  }
+
+  .carousel-caption button {
+    font-size: 10px;
+  }
+
+  .carousel-caption span {
+    display: none;
+  }
+}
