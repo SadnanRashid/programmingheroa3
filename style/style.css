@@ -11,6 +11,24 @@ main {
   background-color: #f4fafd;
 }
 
+.margin-top-standard {
+  margin-top: 10%;
+}
+
+.footer-hw {
+  height: 52vh;
+  width: 100%;
+}
+
+.footer-p {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.text-gray {
+  color: gray;
+}
+
 @media screen and (max-width: 576px) {
   .carousel-caption {
     height: 80%;

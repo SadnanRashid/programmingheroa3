@@ -13,6 +13,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
   <!-- End of google fonts -->
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/a1efc8547a.js" crossorigin="anonymous"></script>
+  <!--  -->
   <title>Learna - A Digital Learning Platform</title>
 </head>
 
@@ -113,7 +116,7 @@
     <!-- End of slider -->
 
     <!-- Start of Popular Courses Section -->
-    <section>
+    <section class="margin-top-standard">
       <div class="mt-5 mb-5">
         <!-- section text div -->
         <div>
@@ -258,7 +261,7 @@
     <!-- End of Popular Courses Section -->
 
     <!-- Start of Middle Card Section -->
-    <section>
+    <section class="margin-top-standard">
       <div class="card mb-3">
         <div class="row g-0">
           <div class="col-md-4">
@@ -365,10 +368,111 @@
     </section>
     <!-- end of section register -->
 
-    <!-- start of section register -->
+    <!-- start of accordion/FAQ section -->
+    <section class="margin-top-standard">
+      <h1 class="forn-roboto fw-bold text-center">Frequently Asked Questions</h1>
+      <p class="text-center mb-4">Here are the asked questions. If you still have anything <br> to know, feel free to contact us.</p>
 
-    <!-- end of section register -->
+      <!-- accordion -->
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item mb-3">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <h6 class="font-roboto">Differences between flexbox and grid?</h6>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time. CSS Grid focuses on precise content placement. Flexbox focuses on content flow rather than content placement. Flexbox enables you to allocate space and align items flexibly.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mb-3">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <h6 class="font-roboto">Differences between Bootstrap and Tailwind?</h6>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Bootstrap comes more with responsive layouts, components, and utility classes compared to Tailwind. But Tailwind has a lot more utility classes than Bootstrap. Bootstrap is less flexible than Tailwind. Bootstrap has been around much longer than Tailwind and is one of the most popular frameworks but Tailwind is also gaining large attention in the dev community.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mb-3">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h6 class="font-roboto">What is CSS box model?</h6>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>In CSS, the term "box model" is used when talking about design and layout. It is essentially a box that wraps around every HTML element. Every box is composed of four parts: content edge, padding edge, border edge, and margin edge. </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingfour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+              <h6 class="font-roboto">What is a semantic tag?</h6>
+            </button>
+          </h2>
+          <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Semantic HTML elements are those that clearly state their meaning in a readable way. Such as header, footer, article, section etc. This tags acts same as div tags. But are easy to identify their meaning. Like, header tag is used to state the header element. The article tag could be replaced with a div tag, but using article tag is easier to understand it's use.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of accordion section -->
+
+    <!-- start of section partner -->
+    <section class="margin-top-standard d-none d-lg-block d-xl-block">
+      <h2 class="font-roboto fw-bold text-center">Trusted by over 200+ companies</h2>
+      <div class="row">
+        <div class="col me-3">
+          <img src="/images/company/company-1.png" class="img-fluid">
+        </div>
+        <div class="col me-3">
+          <img src="/images/company/company-2.png" class="img-fluid">
+        </div>
+        <div class="col me-3">
+          <img src="/images/company/company-3.png" class="img-fluid">
+        </div>
+        <div class="col me-3">
+          <img src="/images/company/company-4.png" class="img-fluid">
+        </div>
+        <div class="col me-3">
+          <img src="/images/company/company-5.png" class="img-fluid">
+        </div>
+        <div class="col me-3">
+          <img src="/images/company/company-6.png" class="img-fluid">
+        </div>
+      </div>
+    </section>
+    <!-- end of section partner -->
+
   </main>
+  <footer class="margin-top-standard bg-dark text-white footer-hw text-center">
+    <div class="footer-p">
+      <h2 class="font-monospace">LearnA</h2>
+      <p class="text-muted">Office 41, Sylhet Sadar, 3100 <br> 
+        Sylhet, Bangladesh</p>
+        <div class="d-flex flex-row justify-content-center">
+        <a href="#" class="text-decoration-none text-muted">Privacy Policy</a>
+        <p class="text-muted ms-2">|</p>
+        <a href="#" class="text-decoration-none text-muted ms-2">Terms of use</a>
+    </div>
+    <div class="d-flex flex-row justify-content-center">
+      <a href="https://www.facebook.com/sadnan.rashid.1/" class="text-decoration-none text-gray"><i class="fa-brands fa-facebook h3"></i></a>
+      <a href="https://www.linkedin.com/in/sadnan-rashid-38b656164/" class="text-decoration-none text-gray"><i class="fa-brands fa-linkedin h3 ms-3"></i></a>
+      <a href="https://github.com/SadnanRashid" class="text-decoration-none text-gray"><i class="fa-brands fa-github h3 ms-3"></i></a>
+      <a href="https://www.instagram.com/sadnanrashid/" class="text-decoration-none text-gray"><i class="fa-brands fa-square-instagram h3 ms-3"></i></i></a>
+    </div>
+    </div>
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
