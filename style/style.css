@@ -7,6 +7,10 @@ main {
   font-family: "Roboto", sans-serif;
 }
 
+.bg-lightblue {
+  background-color: #f4fafd;
+}
+
 @media screen and (max-width: 576px) {
   .carousel-caption {
     height: 80%;
