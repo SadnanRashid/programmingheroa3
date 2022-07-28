@@ -16,7 +16,7 @@
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/a1efc8547a.js" crossorigin="anonymous"></script>
   <!--  -->
-  <title>Learna - A Digital Learning Platform</title>
+  <title>LearnA - a Digital Learning Platform</title>
 </head>
 
 <body>
@@ -66,40 +66,38 @@
     <!-- Start of Slider (include captions and also a button) -->
     <section>
       <div id="carouselExampleCaptions" class="carousel slide mt-4" data-bs-ride="false">
-        <!-- <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div> -->
+
         <div class="carousel-inner">
           <div class="carousel-item active">
+            <!-- for sm and xs devices -->
+            <div class="d-block d-md-none d-lg-none">
             <img src="images/cover/cover-1.jpg" class="d-block w-100">
             <div class="carousel-caption">
-              <h1 class="fw-normal font-roboto">The Best Platform to <br> Learn Digitally</h1>
-              <p>With the Internet and digital technology becoming an integral aspect <span> <br> of our lives,
+              <h1 class="fw-normal font-roboto slider-heading">The Best Platform to <br> Learn Digitally</h1>
+              <p class="slider-text" style="margin-bottom: -3%;">With the Internet and digital technology becoming an integral aspect <span> <br> of our lives,
                   education too, has gone online, exeprience <br> the amazing world of digital learning with us.</span>
               </p>
-              <button class="btn btn-primary fw-bold px-3">Get Started</button>
+              <button class="btn btn-primary fw-bold px-3" style="margin-bottom: -15%;">Get Started</button>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="images/cover/cover-3.jpg" class="d-block w-100">
-            <div class="carousel-caption">
-              <h1 class="fw-normal font-roboto">Learn at the comfort of <br> your own home</h1>
-              <p>We pride ourselves on making our programming as openly <span> available and <br> inclusive as possible.
-                  The online format helps you partake in <br> the course from wherever you feel comfortable. </span></p>
-              <button class="btn btn-primary fw-bold px-3">Get Started</button>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/cover/cover-2.jpg" class="d-block w-100">
-            <div class="carousel-caption">
-              <h1 class="fw-normal font-roboto">Enhance your skills, get <br> the job</h1>
-              <p>We will help you develop new skills that will be useful <span> beyond your <br> current position. Our
-                  top priority is to provide a top class <br> education to you that will help you lend a job.</span></p>
-              <button class="btn btn-primary fw-bold px-3">Get Started</button>
-            </div>
-          </div>
+
+            <!-- For tablet and pc -->
+            <div class="d-none d-lg-block d-md-block d-xl-block">
+              <img src="images/cover/cover-1.jpg" class="d-block w-100">
+              <div class="carousel-caption">
+                <h1 class="fw-normal font-roboto">The Best Platform to <br> Learn Digitally</h1>
+                <p>With the Internet and digital technology becoming an integral aspect <span> <br> of our lives,
+                    education too, has gone online, exeprience <br> the amazing world of digital learning with us.</span>
+                </p>
+                <!-- center for tablet -->
+                <div class="d-none d-md-block d-lg-none">
+                <button class="btn btn-primary fw-bold px-3 mb-2">Get Started</button>
+              </div>
+              <!-- center for pc -->
+              <div class="d-none d-lg-block">
+                <button class="btn btn-primary fw-bold px-3 mb-10">Get Started</button>
+              </div>
+              </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev">
@@ -112,6 +110,99 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+      <!--  -->
+      <div class="carousel-item">
+        <!-- for sm and xs devices -->
+        <div class="d-block d-md-none d-lg-none">
+        <img src="images/cover/cover-3.jpg" class="d-block w-100">
+        <div class="carousel-caption">
+          <h1 class="fw-normal font-roboto slider-heading">Learn at the comfort of <br> your own home</h1>
+          <p class="slider-text" style="margin-bottom: -3%;">We pride ourselves on making our programming as openly <span> available and <br> inclusive as possible.
+            The online format helps you partake in <br> the course from wherever you feel comfortable. </span>
+          </p>
+          <button class="btn btn-primary fw-bold px-3" style="margin-bottom: -15%;">Get Started</button>
+        </div>
+      </div>
+
+        <!-- For tablet and pc -->
+        <div class="d-none d-lg-block d-md-block d-xl-block">
+          <img src="images/cover/cover-3.jpg" class="d-block w-100">
+          <div class="carousel-caption">
+            <h1 class="fw-normal font-roboto">Learn at the comfort of <br> your own home</h1>
+            <p>We pride ourselves on making our programming as openly <span> available and <br> inclusive as possible.
+              The online format helps you partake in <br> the course from wherever you feel comfortable. </span>
+            </p>
+            <!-- center for tablet -->
+            <div class="d-none d-md-block d-lg-none">
+            <button class="btn btn-primary fw-bold px-3 mb-2">Get Started</button>
+          </div>
+          <!-- center for pc -->
+          <div class="d-none d-lg-block">
+            <button class="btn btn-primary fw-bold px-3 mb-10">Get Started</button>
+          </div>
+          </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--  -->
+  <div class="carousel-item">
+    <!-- for sm and xs devices -->
+    <div class="d-block d-md-none d-lg-none">
+    <img src="images/cover/cover-2.jpg" class="d-block w-100">
+    <div class="carousel-caption">
+      <h1 class="fw-normal font-roboto slider-heading">Enhance your skills, get <br> the job</h1>
+      <p class="slider-text" style="margin-bottom: -3%;">We will help you develop new skills that will be useful <span> beyond your <br> current position. Our
+        top priority is to provide a top class <br> education to you that will help you lend a job.</span>
+      </p>
+      <button class="btn btn-primary fw-bold px-3" style="margin-bottom: -15%;">Get Started</button>
+    </div>
+  </div>
+
+    <!-- For tablet and pc -->
+    <div class="d-none d-lg-block d-md-block d-xl-block">
+      <img src="images/cover/cover-2.jpg" class="d-block w-100">
+      <div class="carousel-caption">
+        <h1 class="fw-normal font-roboto">Enhance your skills, get <br> the job</h1>
+        <p>We will help you develop new skills that will be useful <span> beyond your <br> current position. Our
+          top priority is to provide a top class <br> education to you that will help you lend a job.</span>
+        </p>
+        <!-- center for tablet -->
+        <div class="d-none d-md-block d-lg-none">
+        <button class="btn btn-primary fw-bold px-3 mb-2">Get Started</button>
+      </div>
+      <!-- center for pc -->
+      <div class="d-none d-lg-block">
+        <button class="btn btn-primary fw-bold px-3 mb-10">Get Started</button>
+      </div>
+      </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+  data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+  data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div>
+
+    </div>
+    
+
+
     </section>
     <!-- End of slider -->
 

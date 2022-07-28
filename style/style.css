@@ -11,11 +11,21 @@ main {
   background-color: #f4fafd;
 }
 
+.mb-10 {
+  margin-bottom: 10%;
+}
+
 .margin-top-standard {
   margin-top: 10%;
 }
-.margin-top-low {
-  margin-top: 6%;
+
+/* adding responsive text classes for slider elements */
+.slider-heading {
+  font-size: 4vw;
+}
+
+.slider-text {
+  font-size: 2vw;
 }
 
 .footer-hw {
@@ -30,27 +40,4 @@ main {
 
 .text-gray {
   color: gray;
-}
-
-@media screen and (max-width: 576px) {
-  .carousel-caption {
-    height: 80%;
-  }
-  .carousel-caption h1 {
-    font-size: 15px;
-    margin-bottom: 5px;
-  }
-
-  .carousel-caption p {
-    font-size: 9px;
-    margin: 5px;
-  }
-
-  .carousel-caption button {
-    font-size: 10px;
-  }
-
-  .carousel-caption span {
-    display: none;
-  }
 }
